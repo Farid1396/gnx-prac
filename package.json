@@ -1,0 +1,26 @@
+{
+  "name": "gnx-prac",
+  "version": "1.0.0",
+  "description": "To run this app: # Install ## nvm (Node Version Manager) [nvm](https://github.com/nvm-sh/nvm) ## run-rs [run-rs](https://www.npmjs.com/package/run-rs) ```bash c ``` ## mongo-express [mongo-express](https://www.npmjs.com/package/mongo-express) ```bash npm install -g mongo-express ``` ## Download npm dependencies At the project root folder run ```bash npm install ``` # Run Start mongodb with replica sets ```bash run-rs ```",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@simtlix/gnx": "^2.4.7",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^15.1.0",
+    "graphql-iso-date": "^3.6.1",
+    "mongo-express": "^0.54.0",
+    "mongoose": "^5.9.19",
+    "nvm": "0.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
