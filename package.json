@@ -16,11 +16,11 @@
     "express-graphql": "^0.9.0",
     "graphql": "^15.1.0",
     "graphql-iso-date": "^3.6.1",
-    "mongo-express": "^0.54.0",
+    "mongo-express": "^1.1.0-rc-3",
     "mongoose": "^5.9.19",
     "nvm": "0.0.4"
   },
   "devDependencies": {
-    "nodemon": "^2.0.4"
+    "nodemon": "^3.1.14"
   }
 }
